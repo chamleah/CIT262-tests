@@ -1,10 +1,12 @@
 import sayHello from '../utils/helloworld.mjs';
 import assert from 'assert';
 
-it("Tests Hello World",()=>{
+it("Should say Leah",()=>{
 
-    const hello=sayHello();
+    const helloString=hello();
+    console.log(helloString);
     
-    assert.equal(hello,"hello");
+    expect(helloString).toBe("Leah");
+    
 
 });

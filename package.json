@@ -1,0 +1,27 @@
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mocha": "^9.1.4"
+  },
+  "scripts": {
+    "test": "test",
+    "test": "mocha"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chamleah/CIT262-Individual-Repository.git"
+  },
+  "author": "leah chamberlain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chamleah/CIT262-Individual-Repository/issues"
+  },
+  "homepage": "https://github.com/chamleah/CIT262-Individual-Repository#readme"
+}
